@@ -13,7 +13,7 @@
     "core-js": "^3.9.0",
     "vee-validate": "^3.4.5",
     "vue": "^2.6.12",
-    "vue-core-video-player": "^0.2.0",
+    "vue-country-code": "^1.1.2",
     "vue-router": "^3.5.1",
     "vuelidate": "^0.7.6",
     "vuex": "^3.6.2",

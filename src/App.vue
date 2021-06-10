@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <nav-bar></nav-bar>
+    <!-- <nav-bar></nav-bar> -->
     <router-view ref="messageRef" class="pageContent"></router-view>
   </div>
 </template>

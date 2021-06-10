@@ -11,17 +11,13 @@ import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 import "./assets/css/custom.scss"
-if (store.getters.getlang == "ar") {
-  import ("./assets/css/bootstrap-rtl.min.css")
-  .then((something) => {});
-}
-
-import VueCoreVideoPlayer from 'vue-core-video-player'
-
-Vue.use(VueCoreVideoPlayer)
+import ("./assets/css/bootstrap-rtl.min.css")
 
 import Vuelidate from 'vuelidate'
 Vue.use(Vuelidate)
+
+import VueCountryCode from "vue-country-code";
+Vue.use(VueCountryCode);
 
 Vue.use(BootstrapVue, IconsPlugin, axios)
 

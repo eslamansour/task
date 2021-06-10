@@ -35,7 +35,7 @@ body {
 }
 .nav-link:hover{
   padding-right: 20px;
-  border-right: #35475e 4px solid;
+  border-right: #65bde1 4px solid;
 }
 .dropdown{
   float: right;
